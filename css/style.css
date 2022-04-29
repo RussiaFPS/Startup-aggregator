@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+.hat { 
+  position: absolute;
+  width: 1793px;
+  height: 72px;
+  left: 25px;
+  top: 50px;
+}
+.logo { 
+  position: absolute;
+  width: 203px;
+  height: 68px;
+  left: 66px;
+
+  
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  
+  color: #3F3F3F;
+}
+.main { 
+  position: absolute;
+  width: 88.69px;
+  height: 19px;
+  left: 725.36px;
+  top: 30px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.8058px;
+  line-height: 83.5%;
+  
+  /* or 19px */
+  letter-spacing: -0.03em;
+  
+  color: #999999;
+}
+.startup { 
+  position: absolute;
+  width: 103px;
+  height: 19px;
+  left: 894.36px;
+  top: 30px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.8058px;
+  line-height: 83.5%;
+  
+  /* identical to box height, or 19px */
+  letter-spacing: -0.03em;
+  
+  color: #999999;
+}
+.profile { 
+
+  position: absolute;
+  width: 99px;
+  height: 19px;
+  left: 1063.36px;
+  top: 30px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.8058px;
+  line-height: 83.5%;
+  
+  /* identical to box height, or 19px */
+  letter-spacing: -0.03em;
+  
+  color: #999999;
+}
+.contacts { 
+  position: absolute;
+  width: 111.5px;
+  height: 19px;
+  left: 1232.5px;
+  top: 30px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22.8058px;
+  line-height: 83.5%;
+  
+  /* or 19px */
+  letter-spacing: -0.03em;
+  
+  color: #999999;
+  
+  
+}
+button {
+  
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+button.log_button { 
+  font-weight: 600;
+  color: #FFFFFF;
+  position: absolute;
+  width: 200px;
+  height: 65px;
+  left: 1385px;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+
+  
+  background: linear-gradient(48.56deg, #253353 -61.49%, #6979B2 100%);
+  box-shadow: 0px 20.4848px 24.4242px -19.697px #5A699C;
+  border-radius: 98.4848px;
+}
+button.log_button:hover {
+  background: #6979B2;
+  transform: translate(0, 0.25em);
+}
+
+button.reg_button { 
+  font-weight: 600;
+  color: #FFFFFF;
+  position: absolute;
+  width: 250px;
+  height: 65px;
+  left: 1609px;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+
+  
+  background: linear-gradient(48.56deg, #253353 -61.49%, #6979B2 100%);
+  box-shadow: 0px 20.4848px 24.4242px -19.697px #5A699C;
+  border-radius: 98.4848px;
+}
+button.reg_button:hover {
+  background: #6979B2;
+  transform: translate(0, 0.25em);
+}
+
+
+.log_text { 
+  position: absolute;
+  width: 99px;
+  height: 27px;
+  left: 1432px;
+  top: 74px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33.88px;
+  line-height: 81%;
+  
+  /* or 27px */
+  letter-spacing: -0.03em;
+  
+  color: #FFFFFF;
+  
+  
+}
+.reg_text { 
+  position: absolute;
+  width: 201px;
+  height: 27px;
+  left: 1639px;
+  top: 74px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33.88px;
+  line-height: 81%;
+  
+  /* or 27px */
+  letter-spacing: -0.03em;
+  
+  color: #FFFFFF;
+}
+
+.title { 
+  position: absolute;
+  width: 1552px;
+  height: 917px;
+  left: auto;
+  top: 115px;
+}
+.title_text { 
+  position: absolute;
+  width: 940.08px;
+  height: 289px;
+  left: 456px;
+  top: 620px;
+  
+  font-family: 'Aclonica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 119.586px;
+  line-height: 81%;
+  
+  /* or 97px */
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: lowercase;
+  
+  color: #3F3F3F;
+}
+button.join_button { 
+  font-weight: 600;
+  color: #FFFFFF;
+  position: absolute;
+  width: 469.58px;
+  height: 78px;
+  left: 692px;
+  top: 962px;
+  text-transform: uppercase;
+  transform-style: preserve-3d;
+  
+  background: linear-gradient(48.56deg, #253353 -61.49%, #6979B2 100%);
+  box-shadow: 0px 20.4848px 24.4242px -19.697px #5A699C;
+  border-radius: 98.4848px;
+}
+
+button.join_button:hover {
+  background: #6979B2;
+  transform: translate(0, 0.25em);
+}
+.balls {
+  position: absolute;
+  width: 1539px;
+  height: 451px;
+  left: 147px;
+  top: 126px;
+}
+.characters {
+  position: absolute;
+  width: 1504.64px;
+  height: 479.45px;
+  left: 134px;
+  top: 123px;
+}
