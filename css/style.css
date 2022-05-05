@@ -169,46 +169,6 @@
     background: #6979B2;
     transform: translate(0, 0.25em);
   }
-
-
-  .log_text { 
-    position: absolute;
-    width: 99px;
-    height: 27px;
-    left: 1432px;
-    top: auto;
-    
-    font-family: 'Aclonica';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 33.88px;
-    line-height: 81%;
-    
-    /* or 27px */
-    letter-spacing: -0.03em;
-    
-    color: #FFFFFF;
-    
-    
-  }
-  .reg_text { 
-    position: absolute;
-    width: 201px;
-    height: 27px;
-    left: 1639px;
-    top: auto;
-    
-    font-family: 'Aclonica';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 33.88px;
-    line-height: 81%;
-    
-    /* or 27px */
-    letter-spacing: -0.03em;
-    
-    color: #FFFFFF;
-  }
   .pic{
     position: relative;
     border: solid rgb(168, 22, 22);
@@ -299,5 +259,4 @@
     background: #6979B2;
     transform: translate(0, 0.25em);
   }
-
 }
