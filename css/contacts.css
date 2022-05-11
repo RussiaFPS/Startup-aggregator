@@ -137,6 +137,8 @@
     width: 200px;
     height: 65px;
     left: 70%;
+    top: 0%;
+    bottom: 0;
     text-transform: uppercase;
     transform-style: preserve-3d;
   
@@ -157,6 +159,8 @@
     width: 250px;
     height: 65px;
     left: 85%;
+    top: 0%;
+    bottom: 0;
     text-transform: uppercase;
     transform-style: preserve-3d;
   
@@ -169,94 +173,94 @@
     background: #6979B2;
     transform: translate(0, 0.25em);
   }
-  .pic{
+  .cont{
     position: relative;
     border: solid rgb(168, 22, 22);
     width: 100%;
-    height: 490px;
+    height: 1034px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-  }
-  .balls {
-    position: absolute;
-    width: auto;
-    height: warp;
-    left: 5%;
-    top: auto;
 
+    background: linear-gradient(180deg, #291E5B 0%, rgba(108, 92, 182, 0) 0.01%, rgba(43, 31, 93, 0.979167) 100%);
   }
-  .characters {
-    position: absolute;
-    width: auto;
-    height: warp;
-    left: 5%;
-    top: auto;
-    border: solid black;
-  } 
-  .title
-  {
+  .text{
     position: relative;
-    border: solid rgb(22, 168, 71);
-    width: 100%;
-    height: 310px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
-  } 
-  .title_text { 
-    position: absolute;
     width: 50%;
-    height: auto;
+    height: 25%;
     left: 25%;
-    border: solid black;
-
+    top: 25%;
+    border: solid rgb(0, 0, 0);
+  }
+  .text_word{
     
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: auto;
+    top: auto;
+
     font-family: 'Aclonica';
     font-style: normal;
     font-weight: 400;
     font-size: 119.586px;
     line-height: 81%;
-    
+
     /* or 97px */
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: lowercase;
-    
-    color: #3F3F3F;
-  }  
-  .text { 
-    position: relative;
-    border: solid rgb(17, 0, 255);
-    width: 100%;
-    height: 78px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  button.join_button { 
-    font-weight: 600;
-    color: #FFFFFF;
-    position: absolute;
-    width: 25%;
-    height: 78px;
-    display: block;
-    margin-left: 36%;
-    margin-right: auto;
-    border: solid black;
 
-    text-transform: uppercase;
-    transform-style: preserve-3d;
-    
-    background: linear-gradient(48.56deg, #253353 -61.49%, #6979B2 100%);
-    box-shadow: 0px 20.4848px 24.4242px -19.697px #5A699C;
-    border-radius: 98.4848px;
+    color: #3F3F3F;
   }
-  button.join_button:hover {
-    background: #6979B2;
-    transform: translate(0, 0.25em);
+  /* .cont_pic{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 32%;
+    top: 80%;
+  } */
+  .twit{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 32%;
+    top: 80%;
   }
+  .inst{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 39%;
+    top: 80%;
+  }
+  .brib{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 46%;
+    top: 80%;
+  }
+  .lin{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 53%;
+    top: 80%;
+  }
+  .git{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 60%;
+    top: 80%;
+  }
+  .dev{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 67%;
+    top: 80%;
+  }  
 }
