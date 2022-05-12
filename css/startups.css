@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+@media (min-width: 1024px) {
+
+  .startups{
+    position: relative;
+    border: solid rgb(168, 22, 22);
+    width: 100%;
+    height: 1034px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+  }
+ 
+  .textbox { 
+    position: absolute;
+    width: 88%;
+    height: 36px;
+    left: 50px;
+    margin-top: 17px;    
+    /* Light/Light */
+    background: #e7e7e7;
+    border-radius: 20px;
+    border: solid rgb(201, 6, 6);
+  }
+  .search_box { 
+    position: absolute;
+    left: 50px;
+    right: 93%;
+    height: 31px;
+    top: 20px;
+    bottom: 0;
+    position: absolute;
+    /* Light/Light */
+    background: #e7e7e7;
+    border-radius: 20px;
+    border: solid rgb(0, 0, 0);
+  }
+  .text_search { 
+
+    position: absolute;
+    width: 62px;
+    height: 22px;
+    left: 34px;
+    top: calc(50% - 22px/2);
+    
+    /* Base/Body */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    
+    /* identical to box height, or 157% */
+    display: flex;
+    align-items: center;
+    
+    /* Dark/Secondary */
+    color: #9FA2AB;
+    border: solid rgb(114, 6, 6);
+  }
+
+  .icon_search { 
+    position: absolute;
+    left: 15%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  }
+  .top_menu{
+    position: relative;
+    border: solid rgb(17, 0, 255);
+    height: 10%;
+    width: 100%;
+    top: 5%;
+  }
+  button{
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+ 
+
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    border: solid black;
+  }  
+  button.add_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 135px;
+    height: 36.74px;
+    left: 8%;
+    top: 55%;
+    bottom: 0;
+    
+    background: #233EAE;
+    
+    /* Small */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+  }
+
+  button.add_button:hover {
+    background: #6979B2;
+    transform: translate(0, 0.25em);
+  }
+  .button_box{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 105px;
+    height: 22px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: auto;
+    flex-grow: 0;
+    border: solid rgb(0, 0, 0);
+  }
+  .button_text{
+    width: 71px;
+    height: 19px;
+    
+    /* Base/Large */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    
+    /* Light/White */
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .icon_box{
+    width: 24px;
+    height: 22px;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: solid rgb(38, 192, 38);
+  }
+
+
+  .icon_add{
+    position: absolute;
+    left: 70%;
+    right: 30%;
+    margin-bottom: 4px;
+    bottom: 0;
+    
+  } 
+  .all{
+    position: absolute;
+    width: 58px;
+    height: 28px;
+    left: 50px;
+    bottom: 14%;
+
+    /* Base/Blockquote */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    /* identical to box height, or 156% */
+    display: flex;
+    align-items: flex-end;
+
+    /* Light/Dark */
+    color: #343A40;
+  }
+  .line{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 15%;
+    bottom: 85.56%;
+    
+    /* Light/Light */
+    background: #F8F9FA;
+    border: 1px solid #EAEAEA;
+  }
+  .avatar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: 8%;
+    top: 50%;    
+
+    
+    /* Light/White */
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+  }
+  .filter{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 11%;
+    bottom: 0%;
+  }
+  .settings{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 14%;
+    bottom: 0%;
+  }
+  .big_search{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 17%;
+    bottom: 0%;
+  }
+}
